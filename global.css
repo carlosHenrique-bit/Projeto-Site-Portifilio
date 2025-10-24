@@ -1,0 +1,15 @@
+/* Geral */
+* {
+  padding: 0;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+a,p {
+    font-family: 'Poppins', sans-serif;
+  }
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Playfair Display', serif;
+  color: #2F3B37;
+}
