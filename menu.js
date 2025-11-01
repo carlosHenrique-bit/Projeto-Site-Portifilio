@@ -9,9 +9,9 @@ buttonMenu.addEventListener('click', function() {
   buttonMenu.setAttribute("aria-expanded", !aberto)
   
   if(aberto) {
-    iconeMenu.setAttribute("src", "./images/icon-menu.svg")
+    iconeMenu.setAttribute("src", "./images/menu-icon.svg")
   }else {
-    iconeMenu.setAttribute("src","./images/menu-fechado.svg"
+    iconeMenu.setAttribute("src","./images/closed-menu.svg"
     )
   }
 })

@@ -5,8 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portifólio Raquel</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/style-cell.css">
+  <link rel="stylesheet" href="./css/style-tablet.css">
+  <link rel="stylesheet" href="./css/style-computador.css">
+  <link rel="stylesheet" href="./css/global-cell.css">
+  <link rel="stylesheet" href="./css/global-tablet.css">
+  <link rel="stylesheet" href="./css/global-computador.css">
   <!-- Fontes -->
 
   <!-- Fonte para Paragrafos -->
@@ -29,7 +33,7 @@
 <body>
   <!-- Cabecalho do site -->
   <header class="navigation">
-    <a href="#"><img src="./images/logo.jpg" alt="logo-img" id="logo-bola" /></a>
+    <a href="#"><img src="./images/logo.jpeg" alt="logo-img" id="logo-bola" /></a>
     <nav id="nav-bar">
       <ul class="container-menu">
         <li class="link"><a href="#descricao">Sobre</a></li>
@@ -37,7 +41,8 @@
         <li class="link"><a href="#projetos">Projetos</a></li>
         <li class="link"><a href="#Whatsapp">Fale Comigo</a></li>
       </ul>
-      <button class="icone-menu" aria-expanded="false"><img src="./images/icon-menu.svg" alt="Logo-book" class="extra"></button>
+      <button class="icone-menu" aria-expanded="false"><img src="./images/menu-icon.svg" alt="Logo-book"
+          class="extra"></button>
     </nav>
   </header>
 
@@ -45,28 +50,30 @@
   <main class="principal">
     <!-- Perfil -->
     <section class="perfil">
-      <header class="cabecalho-perfil">
-        <figure class="container-imagens">
-          <img src="./images/perfil-secundario.jpg" alt="image-perfil" class="imagem-secundaria" />
-          <img src="./images/perfil-primario.jpg" alt="" class="imagem-primaria" />
-          <div class="container-border"></div>
-        </figure>
-      </header>
+      <div class="container-perfil">
+        <header class="cabecalho-perfil">
+          <figure class="container-imagens">
+            <img src="./images/perfil-secundario.jpeg" alt="image-perfil" class="imagem-secundaria" />
+            <img src="./images/perfil-primario.jpeg" alt="" class="imagem-primaria" />
+            <div class="container-border"></div>
+          </figure>
+        </header>
 
-      <article id="descricao">
-        <h1>
-          <div id="ball-orange-title"></div>
-          Raquel Porfírio da Silva
-        </h1>
-        <div class="container-paragrafo">
-          <h3>Sobre Mim</h3>
-          <p><span id="destacado">Bem-vindo(a) ao meu portfólio!</span>
-            Sou apaixonada por transformar ideias em arte e arte em produtos únicos. Aqui, cada criação carrega
-            propósito, criatividade e personalidade.
-            Trabalho com design gráfico, produtos personalizados como canecas, pratos, blusas e garrafas — tudo com
-            atenção aos detalhes e muito carinho.
-            Se você busca algo criativo, exclusivo e com identidade, está no lugar certo.</p>
-        </div>
+        <article id="descricao">
+          <h1>
+            <div id="ball-orange-title"></div>
+            Raquel Porfírio da Silva
+          </h1>
+          <div class="container-paragrafo">
+            <h3>Sobre Mim</h3>
+            <p><span id="destacado">Bem-vindo(a) ao meu portfólio!</span>
+              Sou apaixonada por transformar ideias em arte e arte em produtos únicos. Aqui, cada criação carrega
+              propósito, criatividade e personalidade.
+              Trabalho com design gráfico, produtos personalizados como canecas, pratos, blusas e garrafas — tudo com
+              atenção aos detalhes e muito carinho.
+              Se você busca algo criativo, exclusivo e com identidade, está no lugar certo.</p>
+          </div>
+      </div>
       </article>
       <div class="container-title">
         <h3 id="title-competencia">
@@ -84,13 +91,13 @@
             <li>Inglês básico e comunicação profissional</li>
           </ul>
         </div>
-        <div id="logo-bola-article"><img src="./images/logo.jpg" alt=""></div>
+        <div id="logo-bola-article"><img src="./images/logo.jpeg" alt=""></div>
       </article>
     </section>
 
     <!-- Dominios -->
     <section id="dominio">
-      
+
       <h3>Domínios</h3>
 
       <article class="dominios">
@@ -121,7 +128,7 @@
           </div>
           <p>Illustrator</p>
         </div>
-        
+
         <div class="container-texto-photo">
           <div class="container-progresso-photo">
             <div class="circulo-progresso-photo">
@@ -141,31 +148,31 @@
       <header id="cabecalho-projetos">
         <h3>Projetos</h3>
         <ul id="lista-link-projetos">
-          <div class="container-li-arte-caneca">
+          <div class="container-li-arte">
             <h4>Arte Canecas</h3>
               <li id="arte-canecas">
-                <img src="./images/arte-caneca1.jpg" alt="">
-                <img src="./images/arte-caneca2.jpg" alt="">
-                <img src="./images/arte-caneca3.jpg" alt="">
-                <img src="./images/arte-caneca4.jpg" alt="">
+                <img class="container-arte" src="./images/arte-caneca1.jpeg" alt="">
+                <img class="container-arte" src="./images/arte-caneca2.jpeg" alt="">
+                <img class="container-arte" src="./images/arte-caneca3.jpeg" alt="">
+                <img class="container-arte" src="./images/arte-caneca4.jpeg" alt="">
               </li>
           </div>
-          <div class="container-projetos-de-clientes">
+          <div class="container-li-arte">
             <h4>Projetos Para Clientes</h4>
             <li id="projetos-de-clientes">
-              <img src="./images/arte-cliente1.jpg" alt="">
-              <img src="./images/arte-cliente2.jpg" alt="">
-              <img src="./images/arte-cliente3.jpg" alt="">
-              <img src="./images/arte-cliente4.jpg" alt="">
+              <img class="container-arte" src="./images/arte-cliente1.jpeg" alt="">
+              <img class="container-arte" src="./images/arte-cliente2.jpeg" alt="">
+              <img class="container-arte" src="./images/arte-cliente3.jpeg" alt="">
+              <img class="container-arte" src="./images/arte-cliente4.jpeg" alt="">
             </li>
           </div>
-          <div class="container-projetos-pessoais">
+          <div class="container-li-arte">
             <h4>Projetos Pessoais</h4>
             <li id="projetos-pessoais">
-              <img src="./images/projetos-pessoais1.jpg" alt="">
-              <img src="./images/projetos-pessoais2.jpg" alt="">
-              <img src="./images/projetos-pessoais3.jpg" alt="">
-              <img src="./images/projetos-pessoais4.jpg" alt="">
+              <img class="container-arte" src="./images/arte-pessoal1.jpeg" alt="">
+              <img class="container-arte" src="./images/arte-pessoal2.jpeg" alt="">
+              <img class="container-arte" src="./images/arte-pessoal3.jpeg" alt="">
+              <img class="container-arte" src="./images/arte-pessoal4.jpeg" alt="">
             </li>
           </div>
         </ul>
@@ -180,35 +187,36 @@
       Fico feliz por ter dedicado seu tempo para conhecer meu trabalho. Cada projeto aqui é feito com carinho,
       criatividade e propósito. Se algo chamou sua atenção ou você deseja realizar uma ideia comigo, será um prazer
       conversar. Você é sempre bem-vindo por aqui!</p>
+    <div class="container-footer">
+      <h3>Entre em Contato</h3>
+      <address id="Instagram">
+        <div class="container-redes">
+          <img src="./images/logo-tipo-instagram.png" alt="image-instgram" />
+          <a href="https://www.instagram.com/artes_porfirio?igsh=aW82a2NoMTQ5ZGps">artes_porfirio</a>
+        </div>
 
-    <h3>Entre em Contato</h3>
-    <address id="Instagram">
-      <div class="container-redes">
-        <img src="./images/icon-intagram.jpg" alt="image-instgram" />
-        <a href="https://www.instagram.com/artes_porfirio?igsh=aW82a2NoMTQ5ZGps">artes_porfirio</a>
-      </div>
+        <div class="container-redes">
+          <img src="./images/logo-tipo-instagram.png" alt="image-instagram" />
+          <a href="https://www.instagram.com/vineyardarts_?igsh=MWFjYnppd3F2anBmeA==">vineyardarts_</a>
+        </div>
 
-      <div class="container-redes">
-        <img src="./images/icon-intagram.jpg" alt="image-instagram" />
-        <a href="https://www.instagram.com/vineyardarts_?igsh=MWFjYnppd3F2anBmeA==">vineyardarts_</a>
-      </div>
+      </address>
 
-    </address>
+      <address id="Whatsapp">
+        <div class="container-redes">
+          <img src="./images/logo-tipo-whatsapp.png" alt="image-whatsapp" />
+          <h4>Web</h4>
+          <a href="https://web.whatsapp.com/send?phone=553496564491">+55 34 9656-4491</a>
+        </div>
 
-    <address id="Whatsapp">
-      <div class="container-redes">
-        <img src="./images/icon-zap.jpg" alt="image-whatsapp" />
-        <h4>Web</h4>
-        <a href="https://web.whatsapp.com/send?phone=553496564491">+55 34 9656-4491</a>
-      </div>
-
-      <div class="container-redes">
-        <img src="./images/icon-zap.jpg" alt="image-whatsapp" />
-        <h4>Movel</h4>
-        <a href="https://wa.me/53496564491">+55 34 9656-4491</a>
-      </div>
-    </address>
-    <p class="direitos-autorais">&copy;Direitos Reservados a Carlos e Raquel.</p>
+        <div class="container-redes">
+          <img src="./images/logo-tipo-whatsapp.png" alt="image-whatsapp" />
+          <h4>Movel</h4>
+          <a href="https://wa.me/53496564491">+55 34 9656-4491</a>
+        </div>
+      </address>
+      <p class="direitos-autorais">&copy;Direitos Reservados a Carlos e Raquel.</p>
+    </div>
   </footer>
   <script src="./js/circulo-progresso-canva.js"></script>
   <script src="./js/circulo-progresso-corel.js"></script>

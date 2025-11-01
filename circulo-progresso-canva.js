@@ -27,4 +27,4 @@ const observer = new IntersectionObserver((entries, observer) => {
 }, { threshold: 0.5 }); // 50% do elemento precisa estar visível
 
 // Iniciar observação
-observer.observe(document.querySelector('.dominio'));
+observer.observe(document.getElementById('dominio'));

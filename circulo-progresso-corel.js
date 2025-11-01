@@ -27,4 +27,4 @@ const observerCorel = new IntersectionObserver((entriesCorel, observerCorel) => 
 }, { threshold: 0.5 }); // 50% do elemento precisa estar visível
 
 // Iniciar observação
-observerCorel.observe(document.querySelector('.dominio'));
+observerCorel.observe(document.getElementById('dominio'));

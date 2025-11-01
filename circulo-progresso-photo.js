@@ -27,4 +27,4 @@ const observerPhoto = new IntersectionObserver((entriesPhoto, observerPhoto) => 
 }, { threshold: 0.5 }); // 50% do elemento precisa estar visível
 
 // Iniciar observação
-observerPhoto.observe(document.querySelector('.dominio'));
+observerPhoto.observe(document.getElementById('dominio'));

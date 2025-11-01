@@ -1,0 +1,66 @@
+@media (max-width: 757px) {
+/* Geral */
+* {
+  padding: 0;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+    background: #F5F1EB;
+    display: flex;
+    flex-direction: column;
+  }
+  
+a,p {
+    font-family: 'Poppins', sans-serif;
+  }
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #2F3B37;
+}
+
+h2,h3,h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #2F3B37;
+}
+
+#ball-orange-title {
+    position: absolute;
+    z-index: -1;
+    background-color: #d4ab51;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+
+  #ball-orange-h3 {
+    position: absolute;
+    z-index: -1;
+    background-color: #d4ab51;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+
+    .direitos-autorais {
+    font-size: 10px;
+    text-align: center;
+    color: #4F5A55;
+  }
+
+   .container-arte {
+    width: 150px;
+    height: 170px;
+    margin: 20px 0px 0px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.471);
+    transition: transform 0.5s ease;
+    object-fit: cover;
+  }
+
+  .container-arte:active {
+    object-fit: contain;
+    transform: scale(1.5);
+  }
+}

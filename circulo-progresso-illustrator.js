@@ -27,4 +27,4 @@ const observerIllustrator = new IntersectionObserver((entriesIllustrator, observ
 }, { threshold: 0.5 }); // 50% do elemento precisa estar visível
 
 // Iniciar observação
-observerIllustrator.observe(document.querySelector('.dominio'));
+observerIllustrator.observe(document.getElementById('dominio'));
