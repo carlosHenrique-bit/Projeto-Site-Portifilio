@@ -29,9 +29,15 @@
 <body>
   <!-- Cabecalho do site -->
   <header class="navigation">
-    <a href="#"><img src="./images/logo.jpeg" alt="logo-img" id="logo-bola" /></a>
+    <a href="#"><img src="./images/logo.jpg" alt="logo-img" id="logo-bola" /></a>
     <nav id="nav-bar">
-      <button><img src="./images/menu-icon.svg" alt="Logo-book" class="extra"></button>
+      <ul class="container-menu">
+        <li class="link"><a href="#descricao">Sobre</a></li>
+        <li class="link"><a href="#dominio">Domimio</a></li>
+        <li class="link"><a href="#projetos">Projetos</a></li>
+        <li class="link"><a href="#Whatsapp">Fale Comigo</a></li>
+      </ul>
+      <button class="icone-menu" aria-expanded="false"><img src="./images/icon-menu.svg" alt="Logo-book" class="extra"></button>
     </nav>
   </header>
 
@@ -41,15 +47,16 @@
     <section class="perfil">
       <header class="cabecalho-perfil">
         <figure class="container-imagens">
-          <img src="./images/perfil.jpeg" alt="image-perfil" class="imagem-secundaria" />
-          <img src="./images/perfil-primario(2).jpeg" alt="" class="imagem-primaria" />
+          <img src="./images/perfil-secundario.jpg" alt="image-perfil" class="imagem-secundaria" />
+          <img src="./images/perfil-primario.jpg" alt="" class="imagem-primaria" />
           <div class="container-border"></div>
         </figure>
       </header>
 
       <article id="descricao">
         <h1>
-          <div id="ball-orange-title"></div>Raquel Porfírio da Silva
+          <div id="ball-orange-title"></div>
+          Raquel Porfírio da Silva
         </h1>
         <div class="container-paragrafo">
           <h3>Sobre Mim</h3>
@@ -77,12 +84,13 @@
             <li>Inglês básico e comunicação profissional</li>
           </ul>
         </div>
-        <div id="logo-bola-article"><img src="./images/logo.jpeg" alt=""></div>
+        <div id="logo-bola-article"><img src="./images/logo.jpg" alt=""></div>
       </article>
     </section>
 
     <!-- Dominios -->
-    <section class="dominio">
+    <section id="dominio">
+      
       <h3>Domínios</h3>
 
       <article class="dominios">
@@ -113,11 +121,7 @@
           </div>
           <p>Illustrator</p>
         </div>
-
-      </article>
-
-      <article class="dominio-parte-dois">
-
+        
         <div class="container-texto-photo">
           <div class="container-progresso-photo">
             <div class="circulo-progresso-photo">
@@ -129,38 +133,39 @@
 
       </article>
 
+
     </section>
 
     <!-- Projetos -->
-    <section class="projetos">
+    <section id="projetos">
       <header id="cabecalho-projetos">
         <h3>Projetos</h3>
         <ul id="lista-link-projetos">
           <div class="container-li-arte-caneca">
             <h4>Arte Canecas</h3>
               <li id="arte-canecas">
-                <img src="./images/1.png" alt="">
-                <img src="./images/1.png" alt="">
-                <img src="./images/1.png" alt="">
-                <img src="./images/1.png" alt="">
+                <img src="./images/arte-caneca1.jpg" alt="">
+                <img src="./images/arte-caneca2.jpg" alt="">
+                <img src="./images/arte-caneca3.jpg" alt="">
+                <img src="./images/arte-caneca4.jpg" alt="">
               </li>
           </div>
           <div class="container-projetos-de-clientes">
             <h4>Projetos Para Clientes</h4>
             <li id="projetos-de-clientes">
-              <img src="./images/1.png" alt="">
-              <img src="./images/1.png" alt="">
-              <img src="./images/1.png" alt="">
-              <img src="./images/1.png" alt="">
+              <img src="./images/arte-cliente1.jpg" alt="">
+              <img src="./images/arte-cliente2.jpg" alt="">
+              <img src="./images/arte-cliente3.jpg" alt="">
+              <img src="./images/arte-cliente4.jpg" alt="">
             </li>
           </div>
           <div class="container-projetos-pessoais">
             <h4>Projetos Pessoais</h4>
             <li id="projetos-pessoais">
-              <img src="./images/1.png" alt="">
-              <img src="./images/1.png" alt="">
-              <img src="./images/1.png" alt="">
-              <img src="./images/1.png" alt="">
+              <img src="./images/projetos-pessoais1.jpg" alt="">
+              <img src="./images/projetos-pessoais2.jpg" alt="">
+              <img src="./images/projetos-pessoais3.jpg" alt="">
+              <img src="./images/projetos-pessoais4.jpg" alt="">
             </li>
           </div>
         </ul>
@@ -179,12 +184,12 @@
     <h3>Entre em Contato</h3>
     <address id="Instagram">
       <div class="container-redes">
-        <img src="./images/logo-tipo-instagram.png" alt="image-instgram" />
+        <img src="./images/icon-intagram.jpg" alt="image-instgram" />
         <a href="https://www.instagram.com/artes_porfirio?igsh=aW82a2NoMTQ5ZGps">artes_porfirio</a>
       </div>
 
       <div class="container-redes">
-        <img src="./images/logo-tipo-instagram.png" alt="image-instagram" />
+        <img src="./images/icon-intagram.jpg" alt="image-instagram" />
         <a href="https://www.instagram.com/vineyardarts_?igsh=MWFjYnppd3F2anBmeA==">vineyardarts_</a>
       </div>
 
@@ -192,24 +197,24 @@
 
     <address id="Whatsapp">
       <div class="container-redes">
-        <img src="./images/logo-tipo-whatsapp.png" alt="image-whatsapp" />
+        <img src="./images/icon-zap.jpg" alt="image-whatsapp" />
         <h4>Web</h4>
         <a href="https://web.whatsapp.com/send?phone=553496564491">+55 34 9656-4491</a>
       </div>
 
       <div class="container-redes">
-        <img src="./images/logo-tipo-whatsapp.png" alt="image-whatsapp" />
+        <img src="./images/icon-zap.jpg" alt="image-whatsapp" />
         <h4>Movel</h4>
         <a href="https://wa.me/53496564491">+55 34 9656-4491</a>
       </div>
     </address>
+    <p class="direitos-autorais">&copy;Direitos Reservados a Carlos e Raquel.</p>
   </footer>
   <script src="./js/circulo-progresso-canva.js"></script>
   <script src="./js/circulo-progresso-corel.js"></script>
   <script src="./js/circulo-progresso-illustrator.js"></script>
   <script src="./js/circulo-progresso-photo.js"></script>
-
-  <p class="direitos-autorais">&copy;Direitos Reservados a Carlos e Raquel.</p>
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>

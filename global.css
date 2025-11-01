@@ -20,7 +20,7 @@ h2,h3,h4 {
 
 #ball-orange-title {
     position: absolute;
-    left: 105px;
+    right: 330px;
     z-index: -1;
     background-color: #d4ab51;
     width: 50px;
@@ -30,8 +30,8 @@ h2,h3,h4 {
 
   #ball-orange-h3 {
     position: absolute;
-    left: 203px;
-    top: 924px;
+    right: 220px;
+    bottom: -10px;
     z-index: -1;
     background-color: #d4ab51;
     width: 50px;
